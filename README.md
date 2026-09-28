@@ -130,14 +130,14 @@ bash
 python -m unittest discover -s tests -p "test_*.py"
 Project Structure
 algomate/
-├── algomate.py                 # Main application file
-├── README.md                   # Project documentation
-├── statement.md                # Problem statement
+├── algomate.py                 
+├── README.md               
+├── statement.md              
 ├── tests/
-│   ├── test_number_tools.py   # Number operations tests
-│   └── test_list_tools.py     # List operations tests
+│   ├── test_number_tools.py   
+│   └── test_list_tools.py    
 └── docs/
-    └── architecture.md         # System design documentation
+    └── architecture.md        
 Code Quality Standards
 Modular Design: Separate functions for each algorithm
 Error Handling: Comprehensive input validation with descriptive error messages
